@@ -1,0 +1,31 @@
+{
+  "name": "simulatore-dati-ambientali",
+  "version": "1.0.0",
+  "description": "Simulatore di dati ambientali e di produzione agricola con dashboard interattiva",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "simulate": "node simulator/index.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "simulatore",
+    "dati ambientali",
+    "agricoltura",
+    "dashboard",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "chart.js": "^4.3.0",
+    "react-chartjs-2": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

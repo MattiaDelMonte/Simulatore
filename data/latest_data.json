@@ -1,0 +1,72 @@
+{
+  "timestamp": "2023-12-30T23:00:00.000Z",
+  "date": "31/12/2023",
+  "environmental": {
+    "timestamp": "2023-12-30T23:00:00.000Z",
+    "date": "31/12/2023",
+    "temperature": 25.8,
+    "humidity": 47,
+    "precipitation": 0
+  },
+  "production": {
+    "timestamp": "2023-12-30T23:00:00.000Z",
+    "date": "31/12/2023",
+    "fields": [
+      {
+        "fieldId": 1,
+        "fieldName": "Campo Nord",
+        "cropName": "Grano",
+        "status": "in crescita",
+        "growthStage": 70.3,
+        "healthStatus": 3.4,
+        "expectedYield": 45.73
+      },
+      {
+        "fieldId": 2,
+        "fieldName": "Campo Est",
+        "cropName": "Mais",
+        "status": "in crescita",
+        "growthStage": 50.2,
+        "healthStatus": 4.1,
+        "expectedYield": 22.71
+      },
+      {
+        "fieldId": 3,
+        "fieldName": "Campo Sud",
+        "cropName": "Pomodori",
+        "status": "in crescita",
+        "growthStage": 53.1,
+        "healthStatus": 0,
+        "expectedYield": 34.72
+      },
+      {
+        "fieldId": 4,
+        "fieldName": "Campo Ovest",
+        "cropName": "Olivo",
+        "status": "in crescita",
+        "growthStage": 90.2,
+        "healthStatus": 52.6,
+        "expectedYield": 19.32
+      },
+      {
+        "fieldId": 5,
+        "fieldName": "Collina",
+        "cropName": "Vite",
+        "status": "in crescita",
+        "growthStage": 38.6,
+        "healthStatus": 0.1,
+        "expectedYield": 62.01
+      }
+    ],
+    "harvests": [],
+    "stats": {
+      "totalFields": 5,
+      "fieldsPlanted": 5,
+      "fieldsHarvested": 0,
+      "averageHealth": 12,
+      "totalExpectedYield": 184.49,
+      "totalHarvestedToday": 0,
+      "profitToday": 0
+    }
+  }
+}
