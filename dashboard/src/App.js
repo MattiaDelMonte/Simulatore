@@ -31,9 +31,20 @@ function App() {
         // Se sei su GitHub Pages, usa dati statici
         if (window.location.hostname.includes("github.io")) {
           setData({
-            latest: { /* dati finti */ },
-            environmental: [ /* dati finti */ ],
-            production: [ /* dati finti */ ]
+            latest: {
+              timestamp: "2025-06-26T12:00:00Z",
+              temperature: 25,
+              humidity: 60,
+              production: 120
+            },
+            environmental: [
+              { timestamp: "2025-06-25T12:00:00Z", temperature: 24, humidity: 58 },
+              { timestamp: "2025-06-26T12:00:00Z", temperature: 25, humidity: 60 }
+            ],
+            production: [
+              { timestamp: "2025-06-25T12:00:00Z", production: 110 },
+              { timestamp: "2025-06-26T12:00:00Z", production: 120 }
+            ]
           });
           setLoading(false);
           return;
