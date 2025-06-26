@@ -28,22 +28,25 @@ function App() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        
-        // Carica i dati più recenti
+        // Se sei su GitHub Pages, usa dati statici
+        if (window.location.hostname.includes("github.io")) {
+          setData({
+            latest: { /* dati finti */ },
+            environmental: [ /* dati finti */ ],
+            production: [ /* dati finti */ ]
+          });
+          setLoading(false);
+          return;
+        }
+        // ...altrimenti usa le API reali
         const latestResponse = await axios.get('/api/data/latest');
-        
-        // Carica i dati ambientali
         const environmentalResponse = await axios.get('/api/data/environmental');
-        
-        // Carica i dati di produzione
         const productionResponse = await axios.get('/api/data/production');
-        
         setData({
           latest: latestResponse.data,
           environmental: environmentalResponse.data,
           production: productionResponse.data
         });
-        
         setLoading(false);
       } catch (err) {
         console.error('Errore nel caricamento dei dati:', err);
