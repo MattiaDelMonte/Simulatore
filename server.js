@@ -20,7 +20,7 @@ if (!simulator.loadData()) {
 
 // Inizializza l'app Express
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors());
@@ -113,11 +113,17 @@ app.post('/api/reset', (req, res) => {
     }
 });
 
-// Servi i file statici della dashboard React
+// file statici della dashboard React per git pages
+app.use('/Simulatore', express.static(path.join(__dirname, 'dashboard/build')));
 app.use(express.static(path.join(__dirname, 'dashboard/build')));
 
-// Per qualsiasi altra richiesta, servi l'app React
+// Per qualsiasi altra richiesta, usa l'app React
 app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dashboard/build', 'index.html'));
+});
+
+// Gestisci anche le richieste con il percorso base /Simulatore
+app.get('/Simulatore/*', (req, res) => {
     res.sendFile(path.join(__dirname, 'dashboard/build', 'index.html'));
 });
 
