@@ -4,7 +4,6 @@ import {
   FaHome, 
   FaCloudSun, 
   FaSeedling, 
-  FaChartLine, 
   FaCogs,
   FaBars,
   FaTimes,

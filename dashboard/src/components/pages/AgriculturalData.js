@@ -6,10 +6,9 @@ import {
   FaCalendarAlt,
   FaDownload,
   FaChartBar,
-  FaTable,
   FaInfoCircle
 } from 'react-icons/fa';
-import { Bar, Line, Pie } from 'react-chartjs-2';
+import { Line, Pie } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -245,7 +244,6 @@ const AgriculturalData = ({ data }) => {
     // Prepara i dati per il grafico a torta
     const cropNames = Object.keys(harvestsByCrop);
     const cropYields = cropNames.map(name => harvestsByCrop[name].totalYield);
-    const cropProfits = cropNames.map(name => harvestsByCrop[name].totalProfit);
     
     return {
       labels: cropNames,
