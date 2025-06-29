@@ -9,6 +9,7 @@ import Dashboard from './components/pages/Dashboard';
 import EnvironmentalData from './components/pages/EnvironmentalData';
 import AgriculturalData from './components/pages/AgriculturalData';
 import Simulator from './components/pages/Simulator';
+import Forecast from './components/pages/Forecast';
 import Footer from './components/layout/Footer';
 
 // Stili
@@ -117,6 +118,7 @@ function App() {
                 <Route path="/environmental" element={<EnvironmentalData data={data.environmental} />} />
                 <Route path="/agricultural" element={<AgriculturalData data={data.production} />} />
                 <Route path="/simulator" element={<Simulator refreshData={refreshData} />} />
+                <Route path="/forecast" element={<Forecast />} />
               </Routes>
             )}
           </main>

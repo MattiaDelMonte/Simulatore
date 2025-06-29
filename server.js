@@ -103,6 +103,32 @@ app.post('/api/simulate', (req, res) => {
     }
 });
 
+// Genera previsioni future basate sui dati storici
+app.post('/api/forecast', (req, res) => {
+    const { days = 7 } = req.body;
+    
+    if (isNaN(days) || days < 1 || days > 30) {
+        return res.status(400).json({ error: 'Il parametro days deve essere un numero tra 1 e 30' });
+    }
+    
+    try {
+        // Salva lo stato attuale del simulatore
+        const currentData = [...simulator.getAllData()];
+        const currentDate = new Date(simulator.getLatestData().timestamp);
+        
+        // Genera previsioni future
+        const forecastData = simulator.simulateBatch(days);
+        
+        // Ripristina lo stato originale del simulatore
+        simulator.reset();
+        simulator.simulationData = currentData;
+        
+        res.json({ success: true, count: forecastData.length, data: forecastData });
+    } catch (error) {
+        res.status(500).json({ error: 'Errore durante la generazione delle previsioni', details: error.message });
+    }
+});
+
 // Resetta il simulatore
 app.post('/api/reset', (req, res) => {
     try {

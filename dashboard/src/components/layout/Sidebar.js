@@ -7,7 +7,8 @@ import {
   FaChartLine, 
   FaCogs,
   FaBars,
-  FaTimes
+  FaTimes,
+  FaChartArea
 } from 'react-icons/fa';
 import './Sidebar.css';
 
@@ -60,6 +61,12 @@ const Sidebar = () => {
               <NavLink to="/simulator" className={({ isActive }) => isActive ? 'active' : ''}>
                 <FaCogs className="nav-icon" />
                 <span className="nav-text">Simulatore</span>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/forecast" className={({ isActive }) => isActive ? 'active' : ''}>
+                <FaChartArea className="nav-icon" />
+                <span className="nav-text">Previsioni</span>
               </NavLink>
             </li>
           </ul>

@@ -1,70 +1,52 @@
 {
-  "timestamp": "2023-12-30T23:00:00.000Z",
-  "date": "31/12/2023",
+  "timestamp": "2023-01-06T23:00:00.000Z",
+  "date": "07/01/2023",
   "environmental": {
-    "timestamp": "2023-12-30T23:00:00.000Z",
-    "date": "31/12/2023",
-    "temperature": 20.8,
-    "humidity": 60,
-    "precipitation": 4.7
+    "timestamp": "2023-01-06T23:00:00.000Z",
+    "date": "07/01/2023",
+    "temperature": 4.3,
+    "humidity": 70,
+    "precipitation": 0
   },
   "production": {
-    "timestamp": "2023-12-30T23:00:00.000Z",
-    "date": "31/12/2023",
+    "timestamp": "2023-01-06T23:00:00.000Z",
+    "date": "07/01/2023",
     "fields": [
       {
         "fieldId": 1,
-        "fieldName": "Campo Nord",
-        "cropName": "Grano",
+        "fieldName": "Campo 1",
+        "cropName": "Pomodori",
         "status": "in crescita",
-        "growthStage": 42.5,
-        "healthStatus": 6.3,
-        "expectedYield": 46.9
+        "growthStage": 4.3,
+        "healthStatus": 94.2,
+        "expectedYield": 97.92
       },
       {
         "fieldId": 2,
-        "fieldName": "Campo Est",
-        "cropName": "Mais",
+        "fieldName": "Campo 2",
+        "cropName": "Olivo",
         "status": "in crescita",
-        "growthStage": 46.3,
-        "healthStatus": 6.3,
-        "expectedYield": 37.72
+        "growthStage": 1.8,
+        "healthStatus": 98.3,
+        "expectedYield": 22.37
       },
       {
         "fieldId": 3,
-        "fieldName": "Campo Sud",
-        "cropName": "Pomodori",
-        "status": "in crescita",
-        "growthStage": 39.9,
-        "healthStatus": 5.8,
-        "expectedYield": 64.6
-      },
-      {
-        "fieldId": 4,
-        "fieldName": "Campo Ovest",
-        "cropName": "Olivo",
-        "status": "in crescita",
-        "growthStage": 43.2,
-        "healthStatus": 22.4,
-        "expectedYield": 20.49
-      },
-      {
-        "fieldId": 5,
-        "fieldName": "Collina",
+        "fieldName": "Campo 3",
         "cropName": "Vite",
         "status": "in crescita",
-        "growthStage": 32.1,
-        "healthStatus": 0,
-        "expectedYield": 62.33
+        "growthStage": 2,
+        "healthStatus": 97.4,
+        "expectedYield": 87.79
       }
     ],
     "harvests": [],
     "stats": {
-      "totalFields": 5,
-      "fieldsPlanted": 5,
+      "totalFields": 3,
+      "fieldsPlanted": 3,
       "fieldsHarvested": 0,
-      "averageHealth": 8.2,
-      "totalExpectedYield": 232.04,
+      "averageHealth": 96.6,
+      "totalExpectedYield": 208.07,
       "totalHarvestedToday": 0,
       "profitToday": 0
     }

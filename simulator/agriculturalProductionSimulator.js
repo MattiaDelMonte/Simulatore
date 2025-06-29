@@ -11,26 +11,6 @@ class AgriculturalProductionSimulator {
             // Tipi di colture disponibili
             crops: [
                 {
-                    name: 'Grano',
-                    growthDays: 120,  // Giorni necessari per la crescita completa
-                    optimalTemp: { min: 15, max: 25 },  // Temperatura ottimale (°C)
-                    optimalHumidity: { min: 40, max: 70 },  // Umidità ottimale (%)
-                    waterNeeds: 350,  // Fabbisogno idrico totale (mm)
-                    yieldPerHectare: 7.5,  // Tonnellate per ettaro in condizioni ottimali
-                    pricePerTon: 250,  // Prezzo per tonnellata (€)
-                    costPerHectare: 800,  // Costo di coltivazione per ettaro (€)
-                },
-                {
-                    name: 'Mais',
-                    growthDays: 100,
-                    optimalTemp: { min: 18, max: 30 },
-                    optimalHumidity: { min: 50, max: 80 },
-                    waterNeeds: 500,
-                    yieldPerHectare: 9.0,
-                    pricePerTon: 220,
-                    costPerHectare: 950,
-                },
-                {
                     name: 'Pomodori',
                     growthDays: 80,
                     optimalTemp: { min: 20, max: 32 },
@@ -63,11 +43,9 @@ class AgriculturalProductionSimulator {
             ],
             // Configurazione dei campi
             fields: [
-                { id: 1, name: 'Campo Nord', size: 15, cropIndex: 0 },  // 15 ettari di grano
-                { id: 2, name: 'Campo Est', size: 10, cropIndex: 1 },    // 10 ettari di mais
-                { id: 3, name: 'Campo Sud', size: 5, cropIndex: 2 },     // 5 ettari di pomodori
-                { id: 4, name: 'Campo Ovest', size: 8, cropIndex: 3 },   // 8 ettari di olivo
-                { id: 5, name: 'Collina', size: 12, cropIndex: 4 }       // 12 ettari di vite
+                { id: 1, name: 'Campo 1', size: 5, cropIndex: 0 },    // 5 ettari di pomodori
+                { id: 2, name: 'Campo 2', size: 8, cropIndex: 1 },    // 8 ettari di olivo
+                { id: 3, name: 'Campo 3', size: 12, cropIndex: 2 }       // 12 ettari di vite
             ],
             // Parametri di simulazione
             simulation: {
