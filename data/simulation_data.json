@@ -20086,5 +20086,977 @@
         "profitToday": 0
       }
     }
+  },
+  {
+    "timestamp": "2022-12-31T23:00:00.000Z",
+    "date": "01/01/2023",
+    "environmental": {
+      "timestamp": "2022-12-31T23:00:00.000Z",
+      "date": "01/01/2023",
+      "temperature": 12,
+      "humidity": 54,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2022-12-31T23:00:00.000Z",
+      "date": "01/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 0,
+          "healthStatus": 100,
+          "expectedYield": 175
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 0,
+          "healthStatus": 100,
+          "expectedYield": 36
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 0,
+          "healthStatus": 100,
+          "expectedYield": 144
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 100,
+        "totalExpectedYield": 355,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-01T23:00:00.000Z",
+    "date": "02/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-01T23:00:00.000Z",
+      "date": "02/01/2023",
+      "temperature": -0.1,
+      "humidity": 51,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-01T23:00:00.000Z",
+      "date": "02/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 0.3,
+          "healthStatus": 98.8,
+          "expectedYield": 106.69
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 0.2,
+          "healthStatus": 99.2,
+          "expectedYield": 22.37
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 0.2,
+          "healthStatus": 99.2,
+          "expectedYield": 83.94
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 99.1,
+        "totalExpectedYield": 213,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-02T23:00:00.000Z",
+    "date": "03/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-02T23:00:00.000Z",
+      "date": "03/01/2023",
+      "temperature": 15.6,
+      "humidity": 71,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-02T23:00:00.000Z",
+      "date": "03/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 1.3,
+          "healthStatus": 99,
+          "expectedYield": 112.38
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 0.7,
+          "healthStatus": 100,
+          "expectedYield": 22.44
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 0.8,
+          "healthStatus": 100,
+          "expectedYield": 79.33
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 99.7,
+        "totalExpectedYield": 214.15,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-03T23:00:00.000Z",
+    "date": "04/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-03T23:00:00.000Z",
+      "date": "04/01/2023",
+      "temperature": 16,
+      "humidity": 64,
+      "precipitation": 11.2
+    },
+    "production": {
+      "timestamp": "2023-01-03T23:00:00.000Z",
+      "date": "04/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 2.2,
+          "healthStatus": 99.3,
+          "expectedYield": 105.46
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 1.1,
+          "healthStatus": 100,
+          "expectedYield": 22.07
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 1.3,
+          "healthStatus": 100,
+          "expectedYield": 85.75
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 99.8,
+        "totalExpectedYield": 213.28,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-04T23:00:00.000Z",
+    "date": "05/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-04T23:00:00.000Z",
+      "date": "05/01/2023",
+      "temperature": 5.7,
+      "humidity": 76,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-04T23:00:00.000Z",
+      "date": "05/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 2.7,
+          "healthStatus": 98.5,
+          "expectedYield": 114.38
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 1.5,
+          "healthStatus": 100,
+          "expectedYield": 23.85
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 1.6,
+          "healthStatus": 99.6,
+          "expectedYield": 88.8
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 99.4,
+        "totalExpectedYield": 227.03,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-05T23:00:00.000Z",
+    "date": "06/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-05T23:00:00.000Z",
+      "date": "06/01/2023",
+      "temperature": 15.7,
+      "humidity": 75,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-05T23:00:00.000Z",
+      "date": "06/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 3.6,
+          "healthStatus": 98.8,
+          "expectedYield": 115.12
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 1.9,
+          "healthStatus": 97.8,
+          "expectedYield": 21.88
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 2.1,
+          "healthStatus": 100,
+          "expectedYield": 81.6
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 98.9,
+        "totalExpectedYield": 218.6,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-06T23:00:00.000Z",
+    "date": "07/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-06T23:00:00.000Z",
+      "date": "07/01/2023",
+      "temperature": 11.9,
+      "humidity": 72,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-06T23:00:00.000Z",
+      "date": "07/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 4.2,
+          "healthStatus": 98.3,
+          "expectedYield": 95.36
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 2.3,
+          "healthStatus": 98.7,
+          "expectedYield": 19.62
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 2.7,
+          "healthStatus": 100,
+          "expectedYield": 90.13
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 99,
+        "totalExpectedYield": 205.1,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-07T23:00:00.000Z",
+    "date": "08/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-07T23:00:00.000Z",
+      "date": "08/01/2023",
+      "temperature": 12.6,
+      "humidity": 53,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-07T23:00:00.000Z",
+      "date": "08/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 4.8,
+          "healthStatus": 97.7,
+          "expectedYield": 95.85
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 2.8,
+          "healthStatus": 99.7,
+          "expectedYield": 21.01
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 3.2,
+          "healthStatus": 100,
+          "expectedYield": 86.32
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 99.1,
+        "totalExpectedYield": 203.17,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-08T23:00:00.000Z",
+    "date": "09/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-08T23:00:00.000Z",
+      "date": "09/01/2023",
+      "temperature": 18.7,
+      "humidity": 85,
+      "precipitation": 0.7
+    },
+    "production": {
+      "timestamp": "2023-01-08T23:00:00.000Z",
+      "date": "09/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 5.9,
+          "healthStatus": 98.5,
+          "expectedYield": 113.53
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 3.2,
+          "healthStatus": 97.2,
+          "expectedYield": 20.84
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 3.7,
+          "healthStatus": 100,
+          "expectedYield": 87.76
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 98.6,
+        "totalExpectedYield": 222.12,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-09T23:00:00.000Z",
+    "date": "10/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-09T23:00:00.000Z",
+      "date": "10/01/2023",
+      "temperature": 28.8,
+      "humidity": 49,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-09T23:00:00.000Z",
+      "date": "10/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 7,
+          "healthStatus": 99,
+          "expectedYield": 115.12
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 3.7,
+          "healthStatus": 98.2,
+          "expectedYield": 23.47
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 4.2,
+          "healthStatus": 97.8,
+          "expectedYield": 84.58
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 98.3,
+        "totalExpectedYield": 223.17,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-10T23:00:00.000Z",
+    "date": "11/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-10T23:00:00.000Z",
+      "date": "11/01/2023",
+      "temperature": 4.4,
+      "humidity": 76,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-10T23:00:00.000Z",
+      "date": "11/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 7.5,
+          "healthStatus": 98.2,
+          "expectedYield": 111.11
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 3.9,
+          "healthStatus": 98,
+          "expectedYield": 19.52
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 4.4,
+          "healthStatus": 97.2,
+          "expectedYield": 80.63
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 97.8,
+        "totalExpectedYield": 211.26,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2022-12-31T23:00:00.000Z",
+    "date": "01/01/2023",
+    "environmental": {
+      "timestamp": "2022-12-31T23:00:00.000Z",
+      "date": "01/01/2023",
+      "temperature": 10.2,
+      "humidity": 96,
+      "precipitation": 11.8
+    },
+    "production": {
+      "timestamp": "2022-12-31T23:00:00.000Z",
+      "date": "01/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 0,
+          "healthStatus": 100,
+          "expectedYield": 175
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 0,
+          "healthStatus": 100,
+          "expectedYield": 36
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 0,
+          "healthStatus": 100,
+          "expectedYield": 144
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 100,
+        "totalExpectedYield": 355,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-01T23:00:00.000Z",
+    "date": "02/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-01T23:00:00.000Z",
+      "date": "02/01/2023",
+      "temperature": 8.8,
+      "humidity": 91,
+      "precipitation": 2.4
+    },
+    "production": {
+      "timestamp": "2023-01-01T23:00:00.000Z",
+      "date": "02/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 0.4,
+          "healthStatus": 92.2,
+          "expectedYield": 104.21
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 0.3,
+          "healthStatus": 99.9,
+          "expectedYield": 19.64
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 0.3,
+          "healthStatus": 99.6,
+          "expectedYield": 90.76
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 97.3,
+        "totalExpectedYield": 214.6,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-02T23:00:00.000Z",
+    "date": "03/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-02T23:00:00.000Z",
+      "date": "03/01/2023",
+      "temperature": 3.9,
+      "humidity": 56,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-02T23:00:00.000Z",
+      "date": "03/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 0.8,
+          "healthStatus": 91.3,
+          "expectedYield": 93.11
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 0.6,
+          "healthStatus": 99.8,
+          "expectedYield": 22.41
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 0.6,
+          "healthStatus": 99.1,
+          "expectedYield": 85.11
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 96.7,
+        "totalExpectedYield": 200.64,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-03T23:00:00.000Z",
+    "date": "04/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-03T23:00:00.000Z",
+      "date": "04/01/2023",
+      "temperature": 23.8,
+      "humidity": 31,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-03T23:00:00.000Z",
+      "date": "04/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 1.5,
+          "healthStatus": 88.7,
+          "expectedYield": 98.86
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 1,
+          "healthStatus": 100,
+          "expectedYield": 23
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 1,
+          "healthStatus": 97,
+          "expectedYield": 83.93
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 95.2,
+        "totalExpectedYield": 205.79,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-04T23:00:00.000Z",
+    "date": "05/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-04T23:00:00.000Z",
+      "date": "05/01/2023",
+      "temperature": 19.9,
+      "humidity": 68,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-04T23:00:00.000Z",
+      "date": "05/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 2.6,
+          "healthStatus": 89.6,
+          "expectedYield": 87.89
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 1.5,
+          "healthStatus": 100,
+          "expectedYield": 23.21
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 1.6,
+          "healthStatus": 98,
+          "expectedYield": 77.96
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 95.9,
+        "totalExpectedYield": 189.06,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-05T23:00:00.000Z",
+    "date": "06/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-05T23:00:00.000Z",
+      "date": "06/01/2023",
+      "temperature": 19,
+      "humidity": 84,
+      "precipitation": 0.5
+    },
+    "production": {
+      "timestamp": "2023-01-05T23:00:00.000Z",
+      "date": "06/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 3.6,
+          "healthStatus": 83.9,
+          "expectedYield": 79.94
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 1.9,
+          "healthStatus": 100,
+          "expectedYield": 20.7
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 2,
+          "healthStatus": 98.5,
+          "expectedYield": 80.37
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 94.1,
+        "totalExpectedYield": 181.01,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2023-01-06T23:00:00.000Z",
+    "date": "07/01/2023",
+    "environmental": {
+      "timestamp": "2023-01-06T23:00:00.000Z",
+      "date": "07/01/2023",
+      "temperature": 21.5,
+      "humidity": 49,
+      "precipitation": 0
+    },
+    "production": {
+      "timestamp": "2023-01-06T23:00:00.000Z",
+      "date": "07/01/2023",
+      "fields": [
+        {
+          "fieldId": 1,
+          "fieldName": "Campo 1",
+          "cropName": "Pomodori",
+          "status": "in crescita",
+          "growthStage": 4.5,
+          "healthStatus": 84.5,
+          "expectedYield": 87.44
+        },
+        {
+          "fieldId": 2,
+          "fieldName": "Campo 2",
+          "cropName": "Olivo",
+          "status": "in crescita",
+          "growthStage": 2.3,
+          "healthStatus": 93.1,
+          "expectedYield": 20.33
+        },
+        {
+          "fieldId": 3,
+          "fieldName": "Campo 3",
+          "cropName": "Vite",
+          "status": "in crescita",
+          "growthStage": 2.6,
+          "healthStatus": 99.5,
+          "expectedYield": 93.15
+        }
+      ],
+      "harvests": [],
+      "stats": {
+        "totalFields": 3,
+        "fieldsPlanted": 3,
+        "fieldsHarvested": 0,
+        "averageHealth": 92.4,
+        "totalExpectedYield": 200.92,
+        "totalHarvestedToday": 0,
+        "profitToday": 0
+      }
+    }
   }
 ]
