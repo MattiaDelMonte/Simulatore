@@ -18,7 +18,6 @@ Questo progetto consiste in un simulatore di dati ambientali e di produzione agr
 - Visualizzazione interattiva dei dati generati
 - Grafici per monitorare l'efficienza del raccolto
 - Indicatori di performance per l'uso delle risorse
-- Metriche finanziarie
 - Aggiornamento in tempo reale basato sui dati simulati
 
 ## Tecnologie Utilizzate
